@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="w-full bg-[#ece4dd] min-h-screen flex items-center justify-center px-6 py-12">
       <div
         className="max-w-7xl w-full grid md:grid-cols-2 gap-12
-       items-center mt-14 sm:mt-0 px-6"
+       items-center mt-14 sm:mt-0 px-2 md:px-6 py-12"
       >
         {/* Text Section */}
         <motion.div

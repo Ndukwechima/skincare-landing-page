@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
+import lumoraLogo from "../assets/images/lumora logo.png"
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -14,9 +15,7 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-2xl font-[Playfair Display] italic tracking-wider text-[#FF6F61]">
-          LUMORA
-        </h1>
+        <img src={lumoraLogo}  alt="lumora-logo" className="w-20" />
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-10 text-[#6F6F6F] font-inter text-sm">
